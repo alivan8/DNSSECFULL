@@ -1,0 +1,213 @@
+; File written on Mon Mar 14 08:16:08 2022
+; dnssec_signzone version 9.16.1-Ubuntu
+alcoymbra.com.		604800	IN SOA	ns1.alcoymbra.com. admin.alcoymbra.com. (
+					5          ; serial
+					604800     ; refresh (1 week)
+					86400      ; retry (1 day)
+					2419200    ; expire (4 weeks)
+					604800     ; minimum (1 week)
+					)
+			604800	RRSIG	SOA 7 2 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					svuy3KZMyRsH6qRhbOAtuIwkMLnNGp235RCd
+					UnAZpbkKt2wFCF0i4PVlnRPkh2iG8Wspp2i0
+					TiD6fo3//9wVg2/eg4OH5zX1cuGtGd4+KC8b
+					2DNq3UzOip4NASs49dbmo45slVm9ZtFgnJSM
+					pXn0+pZm17gASMbmUDr2/WInwerdQAmCfjgU
+					Jl9NznptIoeYHudwYgx1Pi17cVtOG8Lv2d9R
+					/pBHfNQySxp4+lH8nIVuVjm8ZfqeHfI5hyFs
+					ObPBsbxlkMSrRhRGiz0bWbHJO0HkU/uQqv6J
+					OgAXYpvdGSidxbvlgH5WpYzNaoONctcKQtXT
+					WgDT06oCUJaMrXGnww== )
+			604800	NS	ns1.alcoymbra.com.
+			604800	RRSIG	NS 7 2 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					shzRwAAwCyqLQIF2A5BHkYpG7n4fJe8Ir9C6
+					w0S/4L1kz0kAC23CZX4S9fpAcHd0d/kvACf1
+					8rqV258N5/JJPqoJ+GHapQHUNLMcJ50ORqtb
+					QP0Zq6e8VNBlUYfBU43+oOoJEFjEHaIdcse7
+					naoMATUBUfmtWmVlbyVlhbwMgtxX2dfkIgyg
+					8UkWXrCreFJ6Lqfb9yStj37oW3W80eacqPtP
+					byGYHQc7ZtQYFIkXJlIdC/h88gMUW150zSCB
+					3hFuSEKb32XIl5tRws83+unokm9VzsSWlG0E
+					M0HcvxtsZIiI7tVU1teBx23fz8e0QaXCRv/4
+					5fadd0UzhoUUiUwnIg== )
+			604800	DNSKEY	256 3 7 (
+					AwEAAcP34QkULTlt8r4h2aOhDPDild/ELKoL
+					FXvg/ZiNlDjf4nc7Dl52/rulXyaUBnx/zGaq
+					hmI5UwnbbEPcOzNmCmhBmBk9ajsgCYNWROCe
+					kxY4gy2KZPF/4ZNbeMFpZEtfT/GHVNb0KwM1
+					tJkvygjq6/5ydrises7G65D5I8inyXsMMjg7
+					6LNNNnKtABiBmL3reel8leSmpHKi5aZ351+k
+					ZuoF0loj/8Eceoq0+lU2yrWQjiqVRP8yw22U
+					qjWVIVS+nXj03b5/eKpbqa/nWlkdoQb09aPc
+					R+Qnq6Dr9wBXWOO2pDcCUDbSF0wQwWzj+sMd
+					4FiB84dcH646y+Y3NRPnQ9E=
+					) ; ZSK; alg = NSEC3RSASHA1 ; key id = 64133
+			604800	DNSKEY	257 3 7 (
+					AwEAAaoLjtBdw6jm3000+SCWK2EDExLbr1NL
+					3BHZ4EXlRfsuoaLbvS1gxB7cbmvVCpCgpmtG
+					Axxc3HyR2w33IkF/9dK1bjlHq0HdkvXColMQ
+					QB0Yy77fK2fw0XJcoHleJH2oxGCVuPocIt7G
+					rshXUYmI8ay3xg/l2IT+VUMhF4eTnukyMcvw
+					tebj/rUFrQtkDLvQim7SAYQ57mKg8DnQpPlB
+					VGgXYexdndKSd4Xg2g0EAmBgNU4CoI6agbYJ
+					rxK6xNpX4y4yCbaoaNX3g3+BRgGO8K/vxFNp
+					jgHyO/41J4RAmJLYPfy8Ux8+uZTxHFh+DN94
+					mQWRtBHlM+Wpyvjv5eT0V1gh1tU9BEP0aE1L
+					eaoOMEfMraNG9eFpJLe+VdTI7MDdxi4HDKkg
+					DjSGdhEQtwgvAaO3aIt5pixIIiXAAtzsx2dl
+					vhtxje99Cr7IBmXv6ZoT6q76TVsVHUC3tWhi
+					bTvjYMwr5VmE9sbTk22oeJsC5jTWy6haT9DI
+					9Cquv2Khy613y6N067ejBPBe5icgsZeRWya+
+					UPKc9sm2RiKwW1g1XvvMP4VEbJ2tZJ2llj7O
+					XFHetTdbwImz47/CCinL1qam3K7T9FA/Z+8w
+					i6RfbrEeih3FTo9E/AkZVQNXjGbO0f6KPtRh
+					btu9/mWv1GMruwBq1dicQzJW9yv6Bf2yFlii
+					FnD3
+					) ; KSK; alg = NSEC3RSASHA1 ; key id = 11979
+			604800	RRSIG	DNSKEY 7 2 604800 (
+					20220413071608 20220314071608 11979 alcoymbra.com.
+					LtOID6xLyv9T5UHAIK5oCUpWJaMETg7zY1kq
+					ovlSxj6cBc+WEdXzSR9ZY0YgOyeTOKjjj5sQ
+					qvIpbjDaQHT/tw4OZ577fKCM9SnvqnDhG2at
+					izIbQzd+uDblP4Upm8U5aPTcn81O3NnHbFq2
+					jBbfC9tqTs6axFLPW6CcWdK3kLgEfZgfvX1L
+					CRUPQhpvb/MP+hmKk/hbLe0v2E5PcGtBo/Oy
+					Rq9W5aK0QO1j/+O0GSkO6YRAbvdX/p9G/Lo9
+					J31Bgf/vEACMAA3dr8Y8bU/Vza1oHgsl9KUv
+					+plgAbECHekcaBRva2FQ3mr4Bz9UKR3aElSl
+					rW8x/wNHW/IOd6QCqmHFhU+looOlSlRUU8uo
+					qtK89V9MBl6PtjyaEBbZvFbGTXwWkQpTwXXb
+					Aad2wGg6cAJ0BIhEybMvHwIb8l3pqTafZyL3
+					jfB4Wd/kCoXoMbAy6nuSWW2yEth13aV0evYY
+					xUhmafJd1rbbczHsXBejIh3+oOTPELa2UiD1
+					aZUjEPveFPlnCUYfgWQ8xjtZmBt6y6d7qaYn
+					JUVI2Xh0H64fb/nbsWUpQ2X10A8gu2BzG8Rh
+					be+b9Guj1gvzW2HFTn9zN0S1qoCrwVnYDQi5
+					RXcissuqy2c/wtaVHbej203TzhGAula9Y6MG
+					PJswWix/g3L/nRq4zTtsfm4YkF1g8E7gdQE= )
+			604800	RRSIG	DNSKEY 7 2 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					MAG3mbklbShrK0mvVsNpbpZPTNnXkQDa0N+p
+					bDOh/rSYGp9LSinIFHsizAOOx9dtt2f3CZ7y
+					9JwvtIHbmUYYMBiTp7FWAVVgDGeLSI6cfJqO
+					AZhR1QRDEMffuyMeO5SCjU4Q9yyfGNcTF223
+					LjQ4iLG+TOA4LwVXy6Crlk792ZT5KICRW/Gt
+					LywltkWI8d2bAD2eZNXutmX3sQd9L+i6OelG
+					RLSVumCJZGNUIGzi3q8D1nlfzSbiZGIMY6au
+					E9NbZQ+COVG+Deu6YrVXq4hP2nY0j/SHAzL5
+					zSysVLzMnnSszsuuBu8LuRu1FBIGah14Faca
+					i2VH0vzBLw2J8yJt6w== )
+			0	NSEC3PARAM 1 0 10 77C9AEB803002803
+			0	RRSIG	NSEC3PARAM 7 2 0 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					ZNpvVWsdByUhVJNN0a+z9Ni4L0XwQemU4gzK
+					iE33MSi/KSWKss8pEDtB1xi6uNp1DcxyGrbe
+					IThV86T2tGYcGVlCIJALk+2JNqVU2XXVd4zy
+					9obkIz4QBGKvAI799kDOrvl49xwt7ebOTSFs
+					pUtYhsoaVpGI2mKayy0E8fwlKWExoTG7ewX3
+					6cRYhioj/Jglwux5kLzeEZu3x0gN2GIiH86Z
+					yZFA5lpdzbbaMatErSELte5XQ6sWJV53TVYX
+					8jelIcXUM3O7P39htbRHztBcLpAX2XmUgqT6
+					fkQ4FC2/XjtVo4sVqzSnyI4kbWa1TF9idi14
+					0kTnpRfMmAueFiDpbA== )
+ns1.alcoymbra.com.	604800	IN A	192.168.0.31
+			604800	RRSIG	A 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					Gpz5/fzs6ZEAoncpP6UE+YH75ZSUOtW1afg6
+					63+ANsRHXNW2VPI6Y5RH5YDw2Plk2VnH+Jmk
+					YvVQVn0I2cnvX4JlItQ7UBNWuaTbsnFwuCIo
+					2xciz+q8c0mFz3KxeIuvriAaJ6sZk/0ATNfH
+					IweSTdKkUazyfIZc0VHgSJltbDXl8QUO9ZtB
+					KlmC8l5lG8BZ1UbhuOmFmZm3I/5gBK2l91SO
+					yCYKH0rC403SEjiIR7IrZT521Ow+CrC7BhEg
+					u4x6n+/oHeOfrXNUfb8U+OwBZ0ilJF7MYY3F
+					i5BwiRiDl5pYulLuxgy0tZt89S+I5XMnjSUE
+					BkAnmBvkR0JL5eHm1w== )
+server01.alcoymbra.com.	604800	IN A	192.168.0.31
+			604800	RRSIG	A 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					bNQK14pBtcqYoCV6XXpMqr/ju2wsJQYKPnJl
+					nIs6dkSGa9UkhZwXLZt8iqUHvZhzWJsZ2N/e
+					DaMtgS4iV6xDi86uveO2VKjmjqFH1Nm4AOt+
+					DSpaKYIq9OeLGZ1y6odf8qDe/giZBq2po5Zz
+					e2YTMf1yx5MNSsNRf6Erp0Ek6GXVGUyx7tM8
+					/LjlSeNCYqzVocO200FF0j1qlrpYADR4lDzt
+					+N8irIHSVULGgN5AdMwNGPWQR74KM8Src/Xq
+					Brfe82sfeGbozeVMTp+s6fmyurKA2rUCBaQO
+					4lkNbMyjCG34ikz539GA3lJ+/+yD4YCh51B5
+					jdWPcihrfjBXM8pSkA== )
+www.alcoymbra.com.	604800	IN CNAME server01.alcoymbra.com.
+			604800	RRSIG	CNAME 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					E7DTRqUdtpBzSgidIjNn20fDopHosctmsFcE
+					nADzuG5/S2tb7LBkMHT9g/2/q692EUJdJS+E
+					6B6cZyZD5qBvGEhlPnVP38UKp1TMhaxElt2r
+					ftO6LwqofXghNq9NJeFzNA5mevLr2azVzp0H
+					e49w67/1B9xgyddTDFmil2Ot78OR7faZoZCb
+					nY36f+J10kyjSBdUBi/XHbs0Blb9n1NRGf1i
+					nZcsF9euYf4umuCiu4dAO+ya7OY/OrEMhdu/
+					mL1t4khGy9vPDtj1LeQPkY1Qzz+FXJrBbsFK
+					tnzxYbdAjUOpcsIx03oe+3P3++Olvxvc7okx
+					SGdNkLU44Qe3bGFx/Q== )
+3ICM9HIJSLFTA2HSP0F8DK7USO3RH2UG.alcoymbra.com.	604800 IN NSEC3	1 1 10 77C9AEB803002803 (
+					4AGTBN40BF3A2PNFGLV8DFHRETSO6J4L
+					CNAME RRSIG )
+			604800	RRSIG	NSEC3 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					nKSUk2DbhAnNplFR+UFTf6DEeZfohcRdRIIc
+					f9i8weGAIZ7t9xT8CruzBx723c+GM333hsSy
+					hhln1wH/yENj0SnVy6p/MaIs20tkGZmrD8w6
+					JtHD/WwTtAdLcoMsELwr85WZMIO31ndegYEF
+					FEoZV0iBUZdWlUI+B45/i7epHj4sBi6iALCS
+					Upbap82HDSiUohmHWmOkIO46mgtH/BJGMGOR
+					mHUcSdrh9rARP6WlQdpSiFJAv2r/a8wHngTe
+					xVaXoP5LMFyu18bnYYJLjL/iJIaCj072dRy5
+					7U9Mf0ESIMs/y3gkbrZ0N0/HG60BsEQdG1kD
+					fz2pE3+jqtQoLnbrKg== )
+4AGTBN40BF3A2PNFGLV8DFHRETSO6J4L.alcoymbra.com.	604800 IN NSEC3	1 1 10 77C9AEB803002803 (
+					KB9MVC25DLM8923C8GCHT7UOU1R0UA1I
+					A RRSIG )
+			604800	RRSIG	NSEC3 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					SsDb+IK9gIJnhMv2DNz010rsqXD1dN1boj0i
+					u7jKCaJ39zETfMtvsHV5WPMuq39L0BYg6pQ2
+					Cl+dF7B6FtK7zg0z5pFASN8OmQV2zLNah3wJ
+					8at+EfiLw73l4SSvK9hvjrVYP/86HlJd9M4Z
+					ZQdsDvrszWfOCMZ9W+R68IHzTfDjBU6Pvm19
+					UwthWHi5AHHEf14EMAXT8XDz68ijR50uKEBt
+					3M6lwL9ofUmnSlkr0CqdKERvz6wRt6sQGBGM
+					c70QOA7uiOv/216Czoahe4IIEz6tXgL9RTvt
+					vxG8dEyXDz8LCiscw2xV9kx8jqEqUSiZETsB
+					+uM5iUwHxwTmL7SLPw== )
+KB9MVC25DLM8923C8GCHT7UOU1R0UA1I.alcoymbra.com.	604800 IN NSEC3	1 1 10 77C9AEB803002803 (
+					R4GGE6MKRK9D5F3P3I4B42ORB9GM6QC5
+					A RRSIG )
+			604800	RRSIG	NSEC3 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					qkpR+bwJPWKwD5UJpAJfKbBDTFh9g/Qicw02
+					S7LU/aZaWf0vKEVkb5eW40nVfde0OO/uyDT4
+					hZq6zLQW2hMPD39+1bGBB7NTVZcoZQO/FkiO
+					jLbx4dL8FCLj6IFzddlLmIDCvNW48hGjaz/k
+					r+Ek/+MkUYxHf+FrTTUzlShmiAv9X1v2zBCD
+					ngFDQNoh8rwW/nTwCiZJgXgsH6X9w0wWZkWm
+					FYmh9SNhnB5L3uxY/S9n11W1gQ+oLVln7IU+
+					9vVQTPcKKCws24OYT5w67saGlvZu8AUcjHgt
+					is+B2CL80ei/+USByfYfKbN3xXG+crARxD94
+					w5CZRS/fV+npn0jn5g== )
+R4GGE6MKRK9D5F3P3I4B42ORB9GM6QC5.alcoymbra.com.	604800 IN NSEC3	1 1 10 77C9AEB803002803 (
+					3ICM9HIJSLFTA2HSP0F8DK7USO3RH2UG
+					NS SOA RRSIG DNSKEY NSEC3PARAM )
+			604800	RRSIG	NSEC3 7 3 604800 (
+					20220413071608 20220314071608 64133 alcoymbra.com.
+					dY0Gq/Aaa9/kt7Aa7n5NIzVSeacJfzctiDvC
+					cKaZZXKqgJRzcUhvljfV6DXaph540ihbEWcN
+					MJ3yJBnmsGtpM+uHwRkymvdJIN8ftrCgXRNC
+					VKNmXMS8diC+rVKBtVtTWd/2SX6oNSlXhP6H
+					tQCdlSfVP+j8/MzF1xj8NhevR8o5tFMrN6Hw
+					uUYgJlQqm05sQLioaQOkFGBkfn0rxrUJCluc
+					zBGy/U0G/ChajudLANMU8XRNXbtMPDg83FCF
+					GS9LjaXKuyL29SfJZaubxZzSE8bWSeWUCeXA
+					ORyr5dMBn5l7C/ar67yvBJISqL5S0GHsitl2
+					t7pv76CDhE4zH9HPBA== )
